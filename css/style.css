@@ -1,0 +1,135 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+
+body
+{
+	line-height: 1.6em;
+}
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 10px;
+	margin: 10px;
+	width: 700px;
+	text-align: center;
+	border-collapse: collapse;
+}
+#rounded-corner caption
+{
+        padding: 8px;
+        font-weight: normal;
+        font-size: 13px;
+        color: #039;
+	background: #b9c9fe
+}
+#rounded-corner thead th.rounded-left
+{
+	background: #b9c9fe url('images/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-right
+{
+	background: #b9c9fe url('images/right.png') right -1px no-repeat;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 10px;
+	color: #039;
+	background: #b9c9fe;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+	width: 100px;
+}
+#rounded-corner tfoot td.rounded-foot
+{
+	background: #b9c9fe url('images/left.png') left -1px no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+#menu ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+#menu li
+{
+	display:inline;
+}
+#menu a:link
+{
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#b9c9fe;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#menu a:visited
+{
+        font-weight:bold;
+        color:#FFFFFF;
+        background-color:#b9c9fe;
+        text-align:center;
+        padding:6px;
+        text-decoration:none;
+        text-transform:uppercase;
+}
+#menu a:hover
+{
+	background-color:#e8edff;
+}
+#menu a:active
+{
+        background-color:#e8edff;
+}
+h1
+{
+	font-size: 175%; font-weight: bold; text-align: center;
+}
+#trend
+{
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 10px;
+        margin: 10px;
+        width: 100px;
+        text-align: center;
+        border-collapse: collapse;
+}
+#trend caption
+{
+        padding: 8px;
+        font-weight: normal;
+        font-size: 13px;
+        color: #039;
+        background: #b9c9fe
+}
+#trend td
+{
+        padding: 8px;
+        background: #e8edff;
+        border-top: 1px solid #fff;
+        color: #669;
+        width: 100px;
+}
